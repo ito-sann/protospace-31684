@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 2020_11_07_021838) do
     t.string "title", null: false
     t.text "catch_copy", null: false
     t.text "concept", null: false
+    t.text "image"
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
